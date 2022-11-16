@@ -157,7 +157,7 @@ int main(){
             getline(cin, name);
             name = validateName(name);
             if(!search(name)){
-                cout<<"name doesn't exist";
+                cout<<"name doesn't exist"<<endl;
             }else{
                 print();
                 res.clear();
@@ -171,11 +171,11 @@ int main(){
                 mp.erase(name);
                 remove(root, name, 0);
             }else{
-                cout<<"name doesn't exist";
+                cout<<"name doesn't exist"<<endl;
             }
             break;
         default:
-            cout<<"wrong input";
+            cout<<"wrong input"<<endl;
             break;
         }
     }
