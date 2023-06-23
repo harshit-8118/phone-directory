@@ -1,17 +1,16 @@
 # phone-directory
-<<<<<<< HEAD
-Project Based Learning -
 
-- It is a college project based on Trie Data structure.
-- Phone directory is implemented using trie data structure.
-- We can add phone number along with name.
-- As trie data structure is space optimized data structure, we can reduce search time complexity with this data structure.
+## Project Based Learning -
+- This was my academic project based on DATA STRUCTURE..
+- I had used 'TRIE' data structure with 'AVL tree' data structure.
+- The purpose of this project is to maintain phone directory with low space complexity.
+- I had coded it down in C++.
 
-PBL DAA 
-1. phone directory using trie data structure.
-2. storing name and number using map.
-3. features -
-a. insert name
-b. search name
-c. delete name
->>>>>>> 57d8110ebd5b7cffe5ed97e1d106d200f02cb450
+### Working is as follow - 
+```
+a. select an option 's' - search, 'i' - insert, 'd '- delete, 'x'- exit from directory.
+b. If one inserts name if name doesn't already exists it will be saved with number in phone directory.
+c. If one search for name and it exists in phone directory, their contact details will be shown.
+d. If one deletes a contact, it will be removed from phone records and can not be found on next search onwards.
+e. Can exit from this looping operation under phone directory, by pressing 'x'
+```
